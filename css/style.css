@@ -1,0 +1,109 @@
+.jumbotron {
+    background: url(http://tinyurl.com/hkujfug) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    background-position: 10% 10%;
+    height: 720px;
+    color: white;
+    font-size: 1.5em;
+}
+
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+#text1 {
+  padding-top: 10%;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+#textSmall {
+  padding-top: 5%;
+  font-family: 'Poiret One', cursive;
+}
+
+.iconsSpecial {
+  padding-top: 5%;
+}
+
+#contactBox {
+  text-align: center;
+  border: solid 2px white;
+  width: 150px;
+  font-family: monospace;
+  margin-left: 125px;
+  margin-right: auto;
+  margin-top: 15%;
+}
+
+a h5 {
+  font-size: .35em;
+  color: white;
+}
+
+a h5:hover {
+  color: red;
+}
+
+.contactHead {
+  text-align: center;
+}
+
+#contactArea {
+  padding-top: 3%;
+  color: darkgrey;
+}
+
+/*Staff Images*/
+
+.img-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.img-rounded {
+    border-radius: 6px;
+}
+
+#staffInfo {
+    padding: 5%;
+    background-color: #e3e3e3;
+    height: 75%;
+    width: 75%px;
+    margin-top: 15%;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.soMedia {
+  font-size: 3em;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-left: 10px;
+  color: grey;
+}
+
+.soMedia:hover{
+  color: lightblue;
+}
+
+#teamArea {
+  padding-top: 30px;
+}
+
+.todoAction {
+  text-align: center;
+}
+
+.special {
+  color: red;
+}
